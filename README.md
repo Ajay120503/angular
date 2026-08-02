@@ -1160,18 +1160,3 @@ Server error         -> 500
 ```
 
 ---
-
-## Suggested Practice Projects
-
-Building small end-to-end projects reinforces every unit above. A few structured ideas:
-
-1. **Task Manager App** — Angular frontend, Express REST API, MongoDB storage, JWT auth, CRUD for tasks with categories/due dates.
-2. **Real-Time Chat App** (similar in spirit to a PulseTalk-style build) — Angular UI, Express + Socket.io for real-time messaging, MongoDB for message history, JWT-based auth.
-3. **Blog Platform** — Angular for posts/comments UI, Express API with role-based authorization (admin vs regular user), MongoDB with embedded comments.
-4. **E-commerce Mini App** — product listing, cart (Angular services + state), Express API with payment-gateway stub, MongoDB for products/orders.
-
-For each project, follow the same discipline used in your MERN builds: write an architecture/spec doc first (routes, schemas, component tree), then implement in phases (auth → core CRUD → real-time/advanced features → polish/deploy).
-
----
-
-*End of notes. This document follows the exact unit numbering from the syllabus (Units 1, 2, 3, 4, 6, 7, 8 — Unit 5 is not present in the original syllabus table).*
